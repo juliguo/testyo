@@ -1,0 +1,1 @@
+"use strict";alert("dafd"),Book.open(),User.getName();

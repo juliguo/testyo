@@ -1,0 +1,1 @@
+"use strict";var User=function(e){function r(){alert("My name is User")}var n={};return n.getName=r,n}(jQuery),Book=function(e){function r(){alert("open the book")}var n={};return n.open=r,n}(jQuery);

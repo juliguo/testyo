@@ -1,0 +1,7 @@
+{
+  "scripts/bootstrap.js": "scripts/bootstrap-4df5bf2a4d.js",
+  "scripts/components/my.js": "scripts/components/my-8799cacb48.js",
+  "scripts/jquery_tether_modernizr.js": "scripts/jquery_tether_modernizr-55f3fcb33b.js",
+  "scripts/main.js": "scripts/main-302cd41fea.js",
+  "scripts/vendor/modernizr.js": "scripts/vendor/modernizr-7a0cfc3d59.js"
+}
