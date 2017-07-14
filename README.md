@@ -89,27 +89,27 @@ https://github.com/ruanyf/es6tutorial/
 #### let const
 as the `var` key word,for declare variabled.
 ```javascript
-var name = 'dandan'
+var name = 'dandan';
 
 while(true)
 {
-    var name = "abc"
-    console.log(name)
-    break
+    var name = "abc";
+    console.log(name);
+    break;
 }
 console.log(name)
 
 ```
 使用`var`两次输出的都是 ``abc``
 ```javascript
-let name = 'abc'
+let name = 'abc';
 while(true)
 {
-    let name = 'ddddd'
-    console.log(name)//ddddd
-    break
+    let name = 'ddddd';
+    console.log(name);//ddddd
+    break;
 }
-console.log(name) //abc
+console.log(name); //abc
 ```
 
 ### classe , extends,super
@@ -117,20 +117,21 @@ console.log(name) //abc
 ```javascript
 class Animal{
     constructor(){
-        this.type = 'animal'
+        this.type = 'animal';
     }
     says(says){
-        console.log(says)
+        console.log(says);
     }
 }
 
-let animal = new Animal()
-animal.says('hello')
+let animal = new Animal();
+animal.says('hello');
 
 class Cat extends Animal{
-    constructor{
-        super()
-        this.type = 'cat'
+    constructor
+    {
+        super();
+        this.type = 'cat';
     }
     
 }
